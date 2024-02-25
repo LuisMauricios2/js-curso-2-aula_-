@@ -7,7 +7,7 @@
 //paragrafo.innerHTML = 'Escolha um numero entre 1 e 10';
 
 
-let numeroSecreto = gerarNumeroAleatorio();
+
 
 // essa função faz tudo que foi feito no codigo acima comentado com o codigo otimizado
 function exibirTextoNaTela(tag, texto) {
@@ -15,16 +15,19 @@ function exibirTextoNaTela(tag, texto) {
     campo.innerHTML = texto;
 }
 
-exibirTextoNaTela('h1','Jogo do Numero Secreto');
-exibirTextoNaTela('p','Escolha um numero entre 1 e 10');
+exibirTextoNaTela('h1', 'Jogo do Numero Secreto');
+exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
+
+let numeroSecreto = gerarNumeroAleatorio();
+
 
 //função gera um numero aleatorio e usar a palavra reservada return para conseguirmos mantela armazenada na variavel
 function gerarNumeroAleatorio() {
-    return parseInt(math.ramdom() * 10 + 1);
+    return parseInt(math.random() * 10 + 1)
 }
 
 
 function verificarChute() {
-    console.log (numeroSecreto);
+    console.log(numeroSecreto);
 }
 
