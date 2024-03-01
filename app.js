@@ -20,7 +20,6 @@ exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
 
 let numeroSecreto = gerarNumeroAleatorio();
 
-
 //função gera um numero aleatorio e usar a palavra reservada return para conseguirmos mantela armazenada na variavel
 function gerarNumeroAleatorio() {
     return parseInt(math.random() * 10 + 1)
