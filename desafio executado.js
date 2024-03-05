@@ -7,6 +7,8 @@ function exibirNome(nome) {
     console.log(`Ola, ${nome}!`);
 }
 
+exibirNome('Luis')
+
 /////////////////////////////////////
 
 function numeroEmDobro(numero) {
